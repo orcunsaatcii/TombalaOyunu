@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/sayi1"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="1.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/sayi7"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="7.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi6"
+        app:layout_constraintTop_toBottomOf="@+id/sayi2" />
+
+    <EditText
+        android:id="@+id/sayi6"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="6.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sayi1" />
+
+    <EditText
+        android:id="@+id/sayi9"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="9.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi8"
+        app:layout_constraintTop_toBottomOf="@+id/sayi4" />
+
+    <EditText
+        android:id="@+id/sayi10"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="10.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi9"
+        app:layout_constraintTop_toBottomOf="@+id/sayi5" />
+
+    <EditText
+        android:id="@+id/sayi3"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="3.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/sayi8"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="8.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi7"
+        app:layout_constraintTop_toBottomOf="@+id/sayi3" />
+
+    <EditText
+        android:id="@+id/sayi5"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="5.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi4"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/sayi4"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="4.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/sayi2"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="2.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/sayi12"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="12.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sayi11"
+        app:layout_constraintTop_toBottomOf="@+id/sayi9" />
+
+    <EditText
+        android:id="@+id/sayi11"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="11.sayı"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/sayi12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sayi7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TOMBALA"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/oyna_btn"
+        android:layout_width="211dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="59dp"
+        android:text="OYNA"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
